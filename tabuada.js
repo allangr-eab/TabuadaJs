@@ -1,7 +1,7 @@
-let numero=prompt("Digite um número inteiro");
-let numero2= Número(numero);
+let numero= prompt("Digite um número inteiro positivo");
+let numero2= Number(numero);
 
-para (let i = 0; <= 10; i=i+1)
+for(let i = 0; i <= 10; i=i+1)
 {
-    alerta('${numero2} X ${i}= ${numero2*i});
+    alert(`${numero2} X ${i}= ${numero2*i}`);
 }
